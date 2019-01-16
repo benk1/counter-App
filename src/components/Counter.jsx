@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class Counter  extends Component {
     
-
     formatCount() {
         const {value} = this.props.counter;
         return value === 0 ? "Zero" : value;
@@ -14,13 +13,9 @@ class Counter  extends Component {
             count: this.state.count + 1
         })
     }*/
-
-
-    
-
    
     render() { 
-        console.log("props",this.props)
+        //console.log("props",this.props)
 
         return(
             <div className="row">
